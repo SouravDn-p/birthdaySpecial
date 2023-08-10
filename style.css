@@ -8,7 +8,6 @@ body {
 
 #container{
     margin: 50px;
-    display: none;
 }
 
 .half-width {
@@ -115,11 +114,11 @@ color: #E0B612;
 .birthday-body{
     background-color:rgb(255, 220, 220);
     display: block;
-    height: 700px;
+    height: 1200px;
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Kanit', sans-serif;
     font-family: 'Playfair Display', serif;
-    /* display: none; */
+    display: none;
 }
 
 .image{
@@ -132,10 +131,4 @@ color: #E0B612;
     border-radius: 10px;
 }
 
-marquee{
-    font-size: 40px;
-    font-weight: bolder;
-    /* margin-left: 20%;
-    margin-right: 20%; */
-}
 
