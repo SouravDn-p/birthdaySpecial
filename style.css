@@ -8,6 +8,7 @@ body {
 
 #container{
     margin: 50px;
+    display: none;
 }
 
 .half-width {
@@ -118,30 +119,23 @@ color: #E0B612;
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Kanit', sans-serif;
     font-family: 'Playfair Display', serif;
-    display: none;
+    /* display: none; */
 }
-.imgback h1{
-    background-image: url(image/color.jpg);    background: #425062;
-    color:transparent;
-    padding-top: 20px;
-    background-clip: text;
-    -webkit-background-clip: text;
-    font-weight: bold;
-}
+
 .image{
     padding-top:30px;
     height: 400px;
 }
 .image img{
     height:400px;
-    width:600px;
+    width:fit-content;
     border-radius: 10px;
 }
 
 marquee{
     font-size: 40px;
     font-weight: bolder;
-    margin-left: 28%;
-    margin-right: 20%;
+    /* margin-left: 20%;
+    margin-right: 20%; */
 }
 
